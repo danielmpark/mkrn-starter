@@ -1,7 +1,7 @@
 module.exports = () => {
   // Default to dev presets
   const dbConfig = {
-    url: 'mongodb://localhost:27017/dev',
+    url: 'mongodb+srv://admin:securePassword@mongo-sandbox.vdr7w.mongodb.net/dev?retryWrites=true&w=majority',
     opts: {
       useNewUrlParser: true,
       useUnifiedTopology: true,
